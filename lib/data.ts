@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import corpcommentImg from "@/public/skincheckai.png";
+import rmtdevImg from "@/public/rstcpersonal.png";
+import wordanalyticsImg from "@/public/chandraasri.png";
 
 export const links = [
   {
@@ -34,74 +34,80 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
+
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Bangkit Graduate",
+    location: "Bangkit Academy by Google, GoTo & Tokopedia",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 6 months of studying as Bangkit cohort Mobile Development Learning Path",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Metafora Technology",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I worked as a full-stack developer for 3 monts in 2 job, Chandra asri internal career and PT Elbema",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022",
+  },
+  {
+    title: "Mobile Developer",
+    location: "Bisa Artificial Indonesia",
+    description:
+      "I worked as a Mobile developer for 1 year built SIAKAD mobile application by Bisa AI. I also upskilled to the Project Manager.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022 - 2023",
+  },
+  {
+    title: "Co-Founder",
+    location: "Skincheck.AI",
+    description:
+      "After graduate of Bangkit academy, I built a startup over the past year, namely Skincheck.AI.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 - Present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Skincheck.AI",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "I built a startup over the past year. Users can find solutions to their facial skin problems.",
+    tags: ["Flutter", "User Experience", "Firebase", "Kotlin","GCP"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "rstcPersonal",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "I created an employee application for RSUP Dr. Tadjuddin Chalid. Employees can clock in and out through the mobile application.",
+    tags: ["Flutter", "Node.js", "User interface", "Dart", "Mysql"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Chandra Asri",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "I created an internal career website for PT Chandra Asri. Chandra Asri employees can more easily develop their careers.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
+  "Kotlin",
+  "Dart",
+  "API",
+  "Firebase",
+  "User Experience",
+  "Flutter",
+  "Mysql",
   "Node.js",
+  "React.js",
   "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Flutter",
+  "Time Management",
+  "Leadership",
+  "Authentication",
+  "Android Jetpack",
+  "Next.js"
 ] as const;
