@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/skincheckai.png";
 import rmtdevImg from "@/public/rstcpersonal.png";
 import wordanalyticsImg from "@/public/chandraasri.png";
+import medicasIMG from "@/public/medicaas.png";
 
 export const links = [
   {
@@ -44,8 +45,16 @@ export const experiencesData = [
     date: "2023",
   },
   {
+    title: "Co-Founder",
+    location: "Skincheck.AI",
+    description:
+      "After graduate of Bangkit academy, I built a startup over the past year, namely Skincheck.AI.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 - Present",
+  },
+  {
     title: "Full-Stack Developer",
-    location: "Metafora Technology",
+    location: "PT.Metafora Technology",
     description:
       "I worked as a full-stack developer for 3 monts in 2 job, Chandra asri internal career and PT Elbema",
     icon: React.createElement(CgWorkAlt),
@@ -53,19 +62,19 @@ export const experiencesData = [
   },
   {
     title: "Mobile Developer",
-    location: "Bisa Artificial Indonesia",
+    location: "PT.Bisa Artificial Indonesia",
     description:
       "I worked as a Mobile developer for 1 year built SIAKAD mobile application by Bisa AI. I also upskilled to the Project Manager.",
     icon: React.createElement(CgWorkAlt),
     date: "2022 - 2023",
   },
   {
-    title: "Co-Founder",
-    location: "Skincheck.AI",
+    title: "Full-Stack Developer",
+    location: "CV.Onex Mitratama",
     description:
-      "After graduate of Bangkit academy, I built a startup over the past year, namely Skincheck.AI.",
+      "I worked as full-stack developer at Onext Mitratama for 2 years as Frelace Officer",
     icon: React.createElement(CgWorkAlt),
-    date: "2023 - Present",
+    date: "2020 - 2022",
   },
 ] as const;
 
@@ -76,6 +85,12 @@ export const projectsData = [
       "I built a startup over the past year. Users can find solutions to their facial skin problems.",
     tags: ["Flutter", "User Experience", "Firebase", "Kotlin","GCP"],
     imageUrl: corpcommentImg,
+  },{
+    title: "Medicaas",
+    description:
+      "I created a service information system for clinics that has been used by the Makassar Axis Eye clinic",
+    tags: ["React.js", "Node.js", "User interface", "PrimeReact", "Mysql"],
+    imageUrl: medicasIMG,
   },
   {
     title: "rstcPersonal",
